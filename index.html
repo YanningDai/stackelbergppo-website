@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Deformable Neural Radiance Fields creates free-viewpoint portraits (nerfies) from casually captured videos.">
+  <meta name="keywords" content="Nerfies, D-NeRF, NeRF">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI for Robotic Design</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.svg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Efficient Morphology-Control Co-Design via Stackelberg PPO under Non-Differentiable Leader-Follower Interfaces</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=YJr1mOgAAAAJ">Yanning Dai</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="https://wangyuhuix.github.io/">Yuhui Wang</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="https://dylanashley.io">Dylan R. Ashley</a><sup>1,2,3,4</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://people.idsia.ch/~juergen/">J&uuml;rgen Schmidhuber</a><sup>1,2,3</sup>,
+            </span>
+          </div>
+
+          <div class="is-size-6 publication-authors">
+            <span class="author-block"><sup>1</sup>Center of Excellence for Generative AI, King Abdullah University of Science and Technology (KAUST), Thuwal, Saudi Arabia.</span>
+            <span class="author-block"><sup>2</sup>Dalle Molle Institute for Artificial Intelligence Research (IDSIA), Lugano, Switzerland.</span>
+            <span class="author-block"><sup>3</sup>Universit&agrave della Svizzera italiana (USI), Lugano, Switzerland.</span>
+            <span class="author-block"><sup>4</sup>Scuola universitaria professionale della Svizzera italiana (SUPSI), Lugano, Switzerland.</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <span class="link-block">
+                <a href="https://openreview.net/pdf?id=sJ0vOOkclw"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://openreview.net/pdf?id=sJ0vOOkclw"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/YanningDai/StackelbergPPO"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+              <!-- Hugging Face Link. -->
+              <!-- <span class="link-block">
+                <a href="https://huggingface.co/your-username/your-model"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-cube"></i> 
+                  </span>
+                  <span>Model</span>
+                  </a>
+              </span> -->
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-fluid">
+    <!-- Method Overview Figure -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <div class="content has-text-centered">
+          <img src="./static/images/m.png" alt="Stackelberg PPO Framework" style="width: 95%; ">
+          <p class="has-text-justified" style="width: 92%; margin-top: 1.5rem; margin-left: auto; margin-right: auto;">
+            <strong>Stackelberg PPO.</strong> An efficient Stackelberg-based formulation that mitigates the non-differentiable coupling in morphology–control co-design by leveraging their inherent leader–follower hierarchy. 
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Morphology-control co-design concerns the coupled optimization of an agent's body structure and control policy. A key challenge is that evaluating each candidate morphology requires extensive rollouts to re-optimize control and assess quality, leading to high computational costs and slow convergence. This challenge is compounded by the non-differentiable interaction between morphology and control&mdash;stemming from discrete design choices and rollout-based evaluation&mdash;which blocks gradient flow across the morphology-control interface and forces reliance on costly rollout-driven optimization.
+          </p>
+          <p>
+            To address these challenges, we formulate the problem as a novel variant of Stackelberg Markov game, a hierarchical framework where the leader specifies the morphology and the follower adapts the control&mdash;a natural yet underexplored perspective. Building on this formulation, we propose <em>Stackelberg Proximal Policy Optimization (Stackelberg PPO)</em>, a policy gradient method that leverages the intrinsic coupling between leader and follower to reduce repeated control re-optimization and enable more efficient optimization under non-differentiable interfaces.
+          </p>
+          <p>
+            Experiments across diverse co-design tasks demonstrate that Stackelberg PPO outperforms standard PPO in both stability and final performance.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+
+<section class="section">
+  <!-- <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <div style="margin-top: 0.0rem; margin-bottom: 2.0rem;">
+          <h2 class="title is-3 has-text-centered">Experimental Results</h2>
+        </div>
+        <div style="text-align: center; margin-bottom: 0rem;">
+          <img src="./static/images/baseline_comparison.png" alt="Legend" style="width: 100%; max-width: 1000px;">
+        </div>
+        
+        <p class="has-text-justified" style="margin-top: 1.5rem;">
+          
+          Stackelberg PPO achieves an <strong>average +20.66% improvement</strong> over the strongest baseline across all environments. The advantage is particularly pronounced on <strong>challenging 3D tasks</strong> with large design spaces, where our method delivers an <strong>average +32.02% improvement</strong> in both sample efficiency and final performance.
+        
+        </div>
+      </div>
+    </div> -->
+
+
+
+    <!-- Animation. -->
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <!-- margin-top: 6.0rem -->
+        <div style="margin-top: 1.0rem; margin-bottom: 1.0rem;">
+          <h2 class="title is-3 has-text-centered">Co-Designed Agents</h2>
+        </div>
+
+        <h3 class="title is-4">(3D Tasks)</h3>
+
+        <h4 class="title is-4" style="margin-top: 0.5rem;">Pusher</h4>
+        <div class="columns is-vcentered" style="margin-bottom: 1rem;">
+          <div class="column" style="flex: 0 0 18%; max-width: 20%;">
+            <img src="./static/images/ini_type3.jpg" alt="Task 1" style="width: 100%;">
+          </div>
+          <div class="column" style="flex: 1;">
+            <div class="columns">
+              <div class="column">
+                <video autoplay controls muted loop playsinline preload="none" height="100%">
+                  <source src="./static/videos_agents/pusher_seed=0.mp4" type="video/mp4">
+                </video>
+              </div>
+              <div class="column">
+                <video autoplay controls muted loop playsinline preload="none" height="100%">
+                  <source src="./static/videos_agents/pusher_seed=4.mp4" type="video/mp4">
+                </video>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="columns is-vcentered" style="margin-bottom: 1rem;">
+          <div class="column" style="flex: 0 0 18%; max-width: 20%;">
+          </div>
+          <div class="column" style="flex: 1;">
+            <div class="columns">
+              <div class="column">
+                <video autoplay controls muted loop playsinline preload="none" height="100%">
+                  <source src="./static/videos_agents/pusher_seed=5.mp4" type="video/mp4">
+                </video>
+              </div>
+              <div class="column">
+                <video autoplay controls muted loop playsinline preload="none" height="100%">
+                  <source src="./static/videos_agents/pusher_seed=6.mp4" type="video/mp4">
+                </video>
+              </div>
+            </div>
+          </div>
+
+      </div>
+
+
+
+        <h4 class="title is-4" style="margin-top: 0.5rem;">Stepper-Regular</h4>
+        <div class="columns is-vcentered" style="margin-bottom: 1rem;">
+          <div class="column" style="flex: 0 0 18%; max-width: 20%;">
+            <img src="./static/images/ini_type3.jpg" alt="Task 1" style="width: 100%;">
+          </div>
+          <div class="column" style="flex: 1;">
+            <div class="columns">
+              <div class="column">
+                <video autoplay controls muted loop playsinline preload="none" height="100%">
+                  <source src="./static/videos_agents/stepper_seed=4.mp4" type="video/mp4">
+                </video>
+              </div>
+              <div class="column">
+                <video autoplay controls muted loop playsinline preload="none" height="100%">
+                  <source src="./static/videos_agents/stepper_seed=7.mp4" type="video/mp4">
+                </video>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <h4 class="title is-4" style="margin-top: 0.5rem;">Stepper-Hard</h4>
+        <div class="columns is-vcentered" style="margin-bottom: 1rem;">
+          <div class="column" style="flex: 0 0 18%; max-width: 20%;">
+            <img src="./static/images/ini_type3.jpg" alt="Task 1" style="width: 100%;">
+          </div>
+          <div class="column" style="flex: 1;">
+            <div class="columns">
+              <div class="column">
+                <video autoplay controls muted loop playsinline preload="none" height="100%">
+                  <source src="./static/videos_agents/stepper-hard_seed=7.mp4" type="video/mp4">
+                </video>
+              </div>
+              <div class="column">
+                <video autoplay controls muted loop playsinline preload="none" height="100%">
+                  <source src="./static/videos_agents/stepper-hard_seed=8.mp4" type="video/mp4">
+                </video>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h4 class="title is-4" style="margin-top: 0.5rem;">Crawler</h4>
+        <div class="columns is-vcentered" style="margin-bottom: 1rem;">
+          <div class="column" style="flex: 0 0 18%; max-width: 20%;">
+            <img src="./static/images/ini_type3.jpg" alt="Task 1" style="width: 100%;">
+          </div>
+          <div class="column" style="flex: 1;">
+            <div class="columns">
+              <div class="column">
+                <video autoplay controls muted loop playsinline preload="none" height="100%">
+                  <source src="./static/videos_agents/crawler_seed=0.mp4" type="video/mp4">
+                </video>
+              </div>
+              <div class="column">
+                <video autoplay controls muted loop playsinline preload="none" height="100%">
+                  <source src="./static/videos_agents/crawler_seed=4.mp4" type="video/mp4">
+                </video>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <h3 class="title is-4">(2D Tasks)</h3>
+
+        <h4 class="title is-4" style="margin-top: 0.5rem;">Cheetah</h4>
+        <div class="columns is-vcentered" style="margin-bottom: 1rem;">
+          <div class="column" style="flex: 0 0 18%; max-width: 20%;">
+            <img src="./static/images/ini_type1.jpg" alt="Task 1" style="width: 100%;">
+          </div>
+          <div class="column" style="flex: 1;">
+            <div class="columns">
+              <div class="column">
+                <video autoplay controls muted loop playsinline preload="none" height="100%">
+                  <source src="./static/videos_agents/cheetah_seed=4.mp4" type="video/mp4">
+                </video>
+              </div>
+              <div class="column">
+                <video autoplay controls muted loop playsinline preload="none" height="100%">
+                  <source src="./static/videos_agents/cheetah_seed=5.mp4" type="video/mp4">
+                </video>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h4 class="title is-4" style="margin-top: 0.5rem;">Terrain Crosser</h4>
+        <div class="columns is-vcentered" style="margin-bottom: 1rem;">
+          <div class="column" style="flex: 0 0 18%; max-width: 20%;">
+            <img src="./static/images/ini_type1.jpg" alt="Task 1" style="width: 100%;">
+          </div>
+          <div class="column" style="flex: 1;">
+            <div class="columns">
+              <div class="column">
+                <video autoplay controls muted loop playsinline preload="none" height="100%">
+                  <source src="./static/videos_agents/terraincrosser_seed=3.mp4" type="video/mp4">
+                </video>
+              </div>
+              <div class="column">
+                <video autoplay controls muted loop playsinline preload="none" height="100%">
+                  <source src="./static/videos_agents/terraincrosser_seed=5.mp4" type="video/mp4">
+                </video>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h4 class="title is-4" style="margin-top: 0.5rem;">Walker-Hard</h4>
+        <div class="columns is-vcentered" style="margin-bottom: 1rem;">
+          <div class="column" style="flex: 0 0 18%; max-width: 20%;">
+            <img src="./static/images/ini_type2.jpg" alt="Task 1" style="width: 100%;">
+          </div>
+          <div class="column" style="flex: 1;">
+            <div class="columns">
+              <div class="column">
+                <video autoplay controls muted loop playsinline preload="none" height="100%">
+                  <source src="./static/videos_agents/walker-hard_seed=5.mp4" type="video/mp4">
+                </video>
+              </div>
+              <div class="column">
+                <video autoplay controls muted loop playsinline preload="none" height="100%">
+                  <source src="./static/videos_agents/walker-hard_seed=6.mp4" type="video/mp4">
+                </video>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h4 class="title is-5" style="margin-top: 0.5rem;">Glider-Hard</h4>
+        <div class="columns is-vcentered" style="margin-bottom: 1rem;">
+          <div class="column" style="flex: 0 0 18%; max-width: 20%;">
+            <img src="./static/images/ini_type2.jpg" alt="Task 1" style="width: 100%;">
+          </div>
+          <div class="column" style="flex: 1;">
+            <div class="columns">
+              <div class="column">
+                <video autoplay controls muted loop playsinline preload="none" height="100%">
+                  <source src="./static/videos_agents/glider-hard_seed=1.mp4" type="video/mp4">
+                </video>
+              </div>
+              <div class="column">
+                <video autoplay controls muted loop playsinline preload="none" height="100%">
+                  <source src="./static/videos_agents/glider-hard_seed=3.mp4" type="video/mp4">
+                </video>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+    </div>
+    <!--/ Animation. -->
+
+
+
+
+  </div>
+</section>
+
+
+
+
+<section class="section">
+  <div class="container is-fluid">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-9">
+        <h2 class="title is-3">Designed Morphologies Across Diverse Tasks</h2>
+        <div class="content has-text-justified">
+          <img src="./static/images/creatures.jpg" alt="creatures" style="margin: 40px auto 40px auto; margin-left: 3.0%">
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+  </div>
+</section>
+
+
+
+<section class="section">
+  <div class="container is-fluid">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-10">
+        <h2 class="title is-3">Evolution Process</h2>
+        <div class="content has-text-justified">
+          <img src="./static/images/evolve.jpg" alt="evolve" style="display: block; margin-left: 2.0%">
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+  </div>
+</section>
+
+
+<!-- <section class="section">
+  <div class="container is-fluid">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Extended Tasks</h2>
+
+        <div class="column" style="flex: 1;">
+          <div class="columns">
+
+            <div class="column">
+              <p class="title is-5">Sparse Obstacle Navigation</p>
+              <video autoplay controls muted loop playsinline preload="none" preload="none" height="100%">
+                <source src="./static/videos_agents/Sparse_Obstacle_crawler_seed=0.mp4" type="video/mp4">
+              </video>
+            </div>
+
+            <div class="column">
+              <p class="title is-5">Dense Obstacle Navigation</p>
+              <video autoplay controls muted loop playsinline preload="none" height="100%">
+                <source src="./static/videos_agents/Dense_Obstacle_crawler_seed=0.mp4" type="video/mp4">
+              </video>
+            </div>
+            
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section> -->
+
+<section class="section" id="BibTeX">
+  <div class="container is-fluid">
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title">BibTeX</h2>
+        <pre><code>
+@inproceedings{dai2026efficient,
+  title     = {Efficient Morphology--Control Co-Design via Stackelberg {PPO}},
+  author    = {Dai, Yanning and Wang, Yuhui and Ashley, Dylan R. and Schmidhuber, J{\"u}rgen},
+  booktitle = {The Fourteenth International Conference on Learning Representations},
+  year      = {2026}
+}
+        </code></pre>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <a class="icon-link"
+         href="./static/videos/nerfies_paper.pdf">
+        <i class="fas fa-file-pdf"></i>
+      </a>
+      <a class="icon-link" href="https://github.com/keunhong" class="external-link" disabled>
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is licensed under a <a rel="license"
+                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+          <p>
+            This means you are free to borrow the <a
+              href="https://github.com/nerfies/nerfies.github.io">source code</a> of this website,
+            we just ask that you link back to this page in the footer.
+            Please remember to remove the analytics code included in the header of the website which
+            you do not want on your website.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
