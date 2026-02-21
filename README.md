@@ -2,7 +2,7 @@
 
 This repository hosts the project website and visualization materials for the paper:
 
-**Efficient Morphology–Control Co-Design via Stackelberg PPO**  
+**Efficient Morphology-Control Co-Design via Stackelberg Proximal Policy Optimization**  
 Yanning Dai†, Yuhui Wang†, Dylan R. Ashley, Jürgen Schmidhuber  
 *International Conference on Learning Representations (ICLR), 2026*
 
